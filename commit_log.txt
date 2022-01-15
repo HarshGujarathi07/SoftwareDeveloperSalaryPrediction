@@ -235,3 +235,4 @@
 2023-05-01T20:44:00: Enhanced model accuracy with feature selection
 2023-02-27T16:46:00: Fixed missing salary data handling
 2023-03-17T08:03:00: Tested various ML algorithms for salary prediction
+2022-01-15T08:10:00: Implemented deep learning model for salary prediction
