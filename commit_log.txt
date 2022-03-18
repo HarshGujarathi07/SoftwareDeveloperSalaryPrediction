@@ -220,3 +220,4 @@
 2023-10-05T23:33:00: Refactored salary prediction model
 2022-09-16T11:06:00: Added new job role categories for salary analysis
 2023-09-07T19:24:00: Improved dataset cleaning for salary trends
+2022-03-18T07:46:00: Refactored ML model training script
