@@ -16,3 +16,4 @@
 2022-12-01T14:40:00: Improved hyperparameter tuning
 2022-07-25T12:58:00: Fixed timestamp alignment issue in dataset
 2022-10-31T11:59:00: Enhanced model accuracy with feature selection
+2022-04-17T15:13:00: Implemented deep learning model for salary prediction
