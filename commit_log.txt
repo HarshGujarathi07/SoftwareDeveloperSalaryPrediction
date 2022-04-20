@@ -18,3 +18,4 @@
 2022-10-31T11:59:00: Enhanced model accuracy with feature selection
 2022-04-17T15:13:00: Implemented deep learning model for salary prediction
 2023-03-12T05:32:00: Fixed timestamp alignment issue in dataset
+2022-04-20T15:56:00: Added new regression model for better salary predictions
