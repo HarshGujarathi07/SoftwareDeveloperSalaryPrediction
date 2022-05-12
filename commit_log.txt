@@ -169,3 +169,4 @@
 2023-02-20T00:30:00: Added new regression model for better salary predictions
 2022-04-18T11:04:00: Improved feature engineering for salary estimation
 2023-01-27T03:08:00: Refactored data pipeline for better performance
+2022-05-12T12:29:00: Updated README with project goals and methodologies
