@@ -38,3 +38,4 @@
 2022-02-18T21:30:00: Refactored ML model training script
 2022-08-05T17:00:00: Tested various ML algorithms for salary prediction
 2022-11-28T15:40:00: Updated README with project goals and methodologies
+2022-06-07T06:49:00: Added exploratory data analysis notebook
