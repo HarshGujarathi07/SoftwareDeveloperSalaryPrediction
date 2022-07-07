@@ -102,3 +102,4 @@
 2023-05-01T07:59:00: Improved feature engineering for salary estimation
 2022-07-21T06:48:00: Added exploratory data analysis notebook
 2023-07-12T14:34:00: Improved hyperparameter tuning
+2022-07-07T01:30:00: Refactored ML model training script
