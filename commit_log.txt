@@ -14,3 +14,4 @@
 2022-01-05T12:31:00: Updated README with project goals and methodologies
 2022-01-15T07:13:00: Implemented deep learning model for salary prediction
 2022-12-01T14:40:00: Improved hyperparameter tuning
+2022-07-25T12:58:00: Fixed timestamp alignment issue in dataset
