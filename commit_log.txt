@@ -218,3 +218,4 @@
 2022-05-03T18:33:00: Added exploratory data analysis notebook
 2022-09-02T17:43:00: Fixed timestamp alignment issue in dataset
 2023-10-05T23:33:00: Refactored salary prediction model
+2022-09-16T11:06:00: Added new job role categories for salary analysis
