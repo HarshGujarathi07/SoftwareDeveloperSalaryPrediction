@@ -96,3 +96,4 @@
 2023-01-10T08:44:00: Improved feature engineering for salary estimation
 2022-01-06T04:23:00: Added exploratory data analysis notebook
 2023-02-23T04:15:00: Implemented deep learning model for salary prediction
+2022-09-19T14:06:00: Added exploratory data analysis notebook
