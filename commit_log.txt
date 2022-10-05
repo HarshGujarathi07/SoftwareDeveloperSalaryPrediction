@@ -1,1 +1,2 @@
 2022-08-17T00:57:00: Updated README with project goals and methodologies
+2022-10-05T19:14:00: Added new job role categories for salary analysis
