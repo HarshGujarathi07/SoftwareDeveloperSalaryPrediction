@@ -208,3 +208,4 @@
 2023-05-02T04:34:00: Added new regression model for better salary predictions
 2023-02-24T00:19:00: Refactored data pipeline for better performance
 2023-11-05T10:08:00: Added new regression model for better salary predictions
+2022-10-13T16:58:00: Added exploratory data analysis notebook
