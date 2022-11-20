@@ -23,3 +23,4 @@
 2022-10-29T18:20:00: Added new regression model for better salary predictions
 2022-07-20T15:54:00: Improved hyperparameter tuning
 2022-01-16T00:47:00: Improved feature engineering for salary estimation
+2022-11-20T08:42:00: Updated README with project goals and methodologies
