@@ -1,15 +1,16 @@
+import datetime
 import os
 import random
-import datetime
+import subprocess
 
-# 🔹 Change this to your SoftwareDeveloperSalaryPrediction repository path
-REPO_PATH = os.path.expanduser("~/Desktop/GitProject/SoftwareDeveloperSalaryPrediction")  # Update if needed
+# 🔹 Change this to your repository path
+REPO_PATH = r"D:\Projects\SoftwareDeveloperSalaryPrediction"  # Ensure correct repo path
 
 # 🔹 Number of commits to generate
-NUM_COMMITS = random.randint(30, 70)  # Random between 180-350 commits
+NUM_COMMITS = random.randint(30, 70)  # Random between 30-70 commits
 
-# 🔹 Your GitHub username (SSH will handle authentication)
-GIT_USERNAME = "premalshah999"
+# 🔹 Your GitHub username
+GIT_USERNAME = "HarshGujarathi07"
 
 # 🔹 Salary Prediction-Specific Commit Messages
 COMMIT_MESSAGES = [
@@ -35,6 +36,17 @@ COMMIT_MESSAGES = [
     "Optimized data normalization technique",
 ]
 
+
+# Function to execute shell commands
+def run_command(command):
+    result = subprocess.run(
+        command, shell=True, capture_output=True, text=True
+    )
+    if result.stderr:
+        print(f"Error: {result.stderr}")
+    return result.stdout.strip()
+
+
 # Function to create and push commits
 def make_commit(commit_date, commit_message):
     os.chdir(REPO_PATH)  # Move to repo folder
@@ -44,25 +56,34 @@ def make_commit(commit_date, commit_message):
         file.write(f"{commit_date}: {commit_message}\n")
 
     # Add changes to Git
-    os.system("git add .")
-    os.system(f'GIT_AUTHOR_DATE="{commit_date}" GIT_COMMITTER_DATE="{commit_date}" git commit -m "{commit_message}"')
+    run_command("git add .")
+    run_command(f'git commit --date="{commit_date}" -m "{commit_message}"')
+
 
 # Set Git username (SSH handles authentication)
-os.system(f'git config user.name "{GIT_USERNAME}"')
+run_command(f'git config user.name "{GIT_USERNAME}"')
 
 # Get the current branch name
-branch_name = os.popen("git rev-parse --abbrev-ref HEAD").read().strip()
+branch_name = run_command("git rev-parse --abbrev-ref HEAD")
 
 # Generate commits for 2022 & 2023
 for _ in range(NUM_COMMITS):
-    random_year = random.choice([2022, 2023])  # Choose either 2022 or 2023
-    random_days = random.randint(0, 364)  # Random day of the year
-    random_time = datetime.timedelta(hours=random.randint(0, 23), minutes=random.randint(0, 59))
+    random_year = random.choice([2022, 2023])
+    random_days = random.randint(0, 364)
+    random_time = datetime.timedelta(
+        hours=random.randint(0, 23), minutes=random.randint(0, 59)
+    )
 
-    commit_date = datetime.datetime(random_year, 1, 1) + datetime.timedelta(days=random_days) + random_time
-    commit_message = random.choice(COMMIT_MESSAGES)  # Choose a random commit message
+    commit_date = (
+        datetime.datetime(random_year, 1, 1)
+        + datetime.timedelta(days=random_days)
+        + random_time
+    )
+    commit_message = random.choice(COMMIT_MESSAGES)
 
     make_commit(commit_date.strftime("%Y-%m-%dT%H:%M:%S"), commit_message)
 
 # Push all commits to GitHub using SSH
-os.system(f"git push origin {branch_name}")
+run_command(f"git push origin {branch_name}")
+
+print("✅ Commits successfully pushed!")
