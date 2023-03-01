@@ -309,3 +309,4 @@
 2022-03-30T18:04:00: Tested various ML algorithms for salary prediction
 2023-07-11T03:45:00: Fixed missing salary data handling
 2023-09-12T05:24:00: Added exploratory data analysis notebook
+2023-03-01T06:33:00: Added new job role categories for salary analysis
