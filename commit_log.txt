@@ -245,3 +245,4 @@
 2022-01-17T06:05:00: Implemented deep learning model for salary prediction
 2022-06-21T11:49:00: Added new regression model for better salary predictions
 2022-11-11T22:49:00: Added new job role categories for salary analysis
+2023-04-08T18:27:00: Refactored data pipeline for better performance
