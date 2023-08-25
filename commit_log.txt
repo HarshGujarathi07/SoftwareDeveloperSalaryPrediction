@@ -212,3 +212,4 @@
 2022-11-22T03:36:00: Added new regression model for better salary predictions
 2022-04-22T14:36:00: Added new regression model for better salary predictions
 2022-08-27T06:46:00: Added new job role categories for salary analysis
+2023-08-25T14:48:00: Added new regression model for better salary predictions
