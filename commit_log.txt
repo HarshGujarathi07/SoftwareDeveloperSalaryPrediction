@@ -108,3 +108,4 @@
 2022-01-14T00:28:00: Enhanced data visualization for salary trends
 2022-12-01T09:23:00: Implemented deep learning model for salary prediction
 2022-05-08T09:50:00: Added exploratory data analysis notebook
+2023-09-02T19:31:00: Improved dataset cleaning for salary trends
