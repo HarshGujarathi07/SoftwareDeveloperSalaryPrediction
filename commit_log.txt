@@ -231,3 +231,4 @@
 2023-08-08T17:22:00: Improved hyperparameter tuning
 2022-01-30T22:50:00: Refactored salary prediction model
 2022-01-04T12:08:00: Tested various ML algorithms for salary prediction
+2023-09-06T13:48:00: Fixed missing salary data handling
