@@ -191,3 +191,4 @@
 2022-11-17T11:57:00: Tested various ML algorithms for salary prediction
 2023-04-23T13:27:00: Implemented deep learning model for salary prediction
 2023-04-18T21:36:00: Fixed timestamp alignment issue in dataset
+2023-11-12T13:34:00: Tested various ML algorithms for salary prediction
